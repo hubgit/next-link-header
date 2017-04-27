@@ -1,7 +1,7 @@
 ## Usage
 
 ```js
-var nextLink = require('next-fetch-link-header')
+var nextLink = require('next-link-header')
 
 fetch('https://api.github.com/search/repositories?q=language:javascript')
     .then(response => nextLink(response))
