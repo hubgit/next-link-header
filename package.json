@@ -1,6 +1,6 @@
 {
   "name": "next-link-header",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Get the link[rel=next] URL from HTTP headers of a fetch response",
   "main": "lib/index.js",
   "repository": "https://github.com/hubgit/next-link-header.git",
