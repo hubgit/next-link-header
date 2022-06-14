@@ -1,5 +1,5 @@
-var fetch = require('node-fetch')
-var nextLink = require('../lib')
+import fetch from 'node-fetch'
+import nextLink from '../lib/index.js'
 
 describe('module', function () {
   it('parses the next link header', function (done) {
