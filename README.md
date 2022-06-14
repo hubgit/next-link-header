@@ -1,12 +1,9 @@
 ## Usage
 
 ```js
-var nextLink = require('next-link-header')
+import nextLink from 'next-link-header'
 
-fetch('https://api.github.com/search/repositories?q=language:javascript')
-    .then(response => nextLink(response))
-    .then(function (url) {
-        // do something with `url`
-    })
-})
+const response = await fetch('https://api.github.com/search/repositories?q=language:javascript')
+const url = nextLink(response)
+// do something with `url`
 ```
